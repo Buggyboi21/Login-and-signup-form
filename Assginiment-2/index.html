@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kallyas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="navbar">
+                <h1 class="logo">Kallyas</h1>
+                <nav>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#work">Work</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#features">Features</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <section id="hero" class="hero">
+        <div class="container">
+            <h2>Helping Business And Companies Innovate Transform And Lead</h2>
+            <p>Learn expert tips and tricks on growth marketing, inbound marketing, and sales conversion. Our inbound strategy brings more leads to your business and ensures conversion rates increase.</p>
+            <div class="hero-buttons">
+                <button class="start-now">Start Now</button>
+                <button>Get Started</button>
+            </div>
+        </div>
+    </section>
+    
+    <section id="services" class="services">
+        <div class="container">
+            <h3>Best services for Visual Perfection</h3>
+            <div class="service-cards">
+                <div class="service-card">
+                    <h4>Content Concept & Strategy</h4>
+                    <p>Content development, in-depth research, marketing campaigns, social media management, newsletters.</p>
+                </div>
+                <div class="service-card">
+                    <h4>Design & Development</h4>
+                    <p>Innovative and creative designs, web development, e-commerce solutions, UI/UX design, app development.</p>
+                </div>
+                <div class="service-card">
+                    <h4>SEO & Marketing Solutions</h4>
+                    <p>Search engine optimization, content marketing, social media strategy, analytics and reporting.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="detailed-plans" class="detailed-plans">
+        <div class="container" style="background-image: url('https://images.pexels.com/photos/290275/pexels-photo-290275.jpeg?auto=compress&cs=tinysrgb&w=600');">
+            <div class="text-content">
+                <h3>Detailed business plans & the most effective results</h3>
+                <p>Professional consulting services to help you strategize and optimize your business plans for the most effective results. Our experts provide detailed business plans and actionable insights.</p>
+                <button>Start Now</button>
+            </div>
+        </div>
+    </section>
+    <section id="trusted-clients" class="trusted-clients">
+        <div class="container">
+            <h3>We are trusted by more than 3600+ clients.</h3>
+            <p>Our clients range from startups to Fortune 500 companies. We have a proven track record of delivering high-quality, innovative solutions that drive business growth.</p>
+        </div>
+    </section>
+    <section id="clients" class="clients">
+        <div class="container">
+            <h3>Clients with projects proudly crafted by our agency.</h3>
+            <div class="client-logos">
+                <img class="client-image" src="https://images.pexels.com/photos/1181690/pexels-photo-1181690.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Client 1">
+                <img class="client-image" src="https://images.pexels.com/photos/834863/pexels-photo-834863.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Client 2">
+                <img class="client-image" src="https://images.pexels.com/photos/1181391/pexels-photo-1181391.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Client 3">
+                <img class="client-image" src="https://images.pexels.com/photos/3783725/pexels-photo-3783725.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Client 4">
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="contact">
+        <div class="container">
+            <h3>Want to have a professional project? Let’s talk about it.</h3>
+            <form id="contact-form" action="#" method="post">
+                <div class="form-group">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" name="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <input type="text" name="subject" placeholder="Subject" required>
+                </div>
+                <div class="form-group">
+                    <textarea name="message" placeholder="Describe your project" required></textarea>
+                </div>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Kallyas. All Rights Reserved.</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+    <script>
+        document.getElementById('contact-form').addEventListener('submit', function(event) {
+            event.preventDefault();
+            alert('Form submitted successfully!');
+        });
+    </script>
+</body>
+</html>

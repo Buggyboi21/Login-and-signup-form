@@ -1,0 +1,57 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital cv</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="img-area">
+                <img src="https://www.pexels.com/photo/person-riding-super-bike-during-night-race-163414/" alt="">
+            </div>
+            <h1>Nauman hanif</h1>
+            <h3>Web developer</h3>
+        </div>
+
+        <div class="main">
+            <div class="left">
+                <h2>Personal Information</h2>
+                <p><strong>Name:</strong> Nauman hanif</p>
+                <p><strong>Age:</strong> 21</p>
+                <p><strong>Email:</strong> Nauman123@gmail.com</p>
+                <p><strong>Phone:</strong> Nauman123@gmail.com</p>
+                <h2>Skills</h2>
+                <ul>
+                    <li>Volunteering</li>
+                    <li>Photography</li>
+                    <Li>Phyton</Li>
+                    <li>c++,java</li>
+                    <li>Gaming</li>
+                </ul>
+                <h2>Education</h2>
+                <h3>O-levels</h3>
+                <p>Nahda national school</p>
+                <h3>A-levels</h3>
+                <p>Nahda national school</p>
+                <h3>Bscs in computer science</h3>
+                <p>University of management and techonology</p>
+            </div>
+
+            <div class="right">
+                <h2>Work experiences</h2>
+                <h3>ABC company</h3>
+                <p><strong>Position:</strong>intern</p>
+                <p><strong>Duration:</strong>2012-2015</p>
+
+                <h3>PXC company</h3>
+                <p><strong>Position:</strong>Developer</p>
+                <p><strong>Duration:</strong>2016-2019</p>
+
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
