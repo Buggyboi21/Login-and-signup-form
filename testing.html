@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="testing.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Assginiment</title>
+</head>
+
+<body>
+    <div class="bigbox">
+        <div class="form-container">
+            <h2>Login</h2>
+            <form>
+                <input type="email" placeholder="Email" required>
+                <div class="password-container">
+                    <input type="password" id="login-password" placeholder="Password" required>
+                    <span class="toggle-password" onclick="togglePassword('login-password', this)"></span>
+                </div>
+                <a href="#">Forgot password?</a>
+                <button type="submit">Login</button>
+                <p>Don't have an account? <a href="#">Signup</a></p>
+                <div class="social-login">
+                    <p>Or</p>
+                    <button class="facebook-btn"><i class="fa-brands fa-facebook"></i>Login with Facebook</button>
+                    <button class="google-btn"><i class="fa-brands fa-google"></i>Login with Google </button>
+                </div>
+            </form>
+        </div>
+
+        <div class="form-container">
+            <h2>Signup</h2>
+            <form>
+                <input type="email" placeholder="Email" required>
+                <div class="password-container">
+                    <input type="password" id="signup-password" placeholder="Create password" required>
+                    <!-- <span class="toggle-password" onclick="togglePassword('signup-password', this)"></span> -->
+                </div>
+                <div class="password-container">
+                    <input type="password" id="confirm-password" placeholder="Confirm password" required>
+                    <span class="toggle-password" onclick="togglePassword('confirm-password', this)"></span>
+                </div>
+                <button type="submit">Signup</button>
+                <p>Already have an account? <a href="#">Login</a></p>
+                <div class="social-login">
+                    <p>Or</p>
+                    <button class="facebook-btn"><i class="fa-brands fa-facebook"></i>Sign up with Facebook</button>
+                    <button class="google-btn"><i class="fa-brands fa-google"></i>Sign up with Google </button> 
+                </div>
+            </form>
+        </div>
+    </div>
+    
+</body>
+</html>

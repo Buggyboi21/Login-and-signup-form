@@ -1,89 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     font-family: Arial, sans-serif;
-    margin: 20px;
-    background-color: #f0f8ff;
+    line-height: 1.6;
     color: #333;
 }
 
 header {
-    background-color: #1e3a5f;
-    color: white;
+    background-color: #333;
+    color: #fff;
     padding: 20px;
     text-align: center;
-    border-radius: 10px;
 }
 
-section {
-    background-color: #ffffff;
-    padding: 20px;
-    margin-bottom: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-footer {
-    text-align: center;
-    padding: 10px;
-    background-color: #1e3a5f;
-    color: white;
-    border-radius: 10px;
-}
-
-table {
-    width: 100%;
-    border-collapse: collapse;
-    margin: 20px 0;
-}
-
-table, th, td {
-    border: 1px solid #ddd;
-}
-
-th, td {
-    padding: 10px;
-    text-align: left;
-}
-
-th {
-    background-color: #1e3a5f;
-    color: white;
-}
-
-ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-ul li {
-    margin: 5px 0;
-    padding: 5px;
-    background-color: #e6f2ff;
-    border-left: 5px solid #1e3a5f;
-}
-
-a {
-    color: #1e3a5f;
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
-img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 10px;
-}
-
-audio {
-    display: block;
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
     margin-top: 10px;
 }
 
-iframe {
-    display: block;
-    margin: 20px 0;
-    border-radius: 10px;
-    border: 2px solid #1e3a5f;
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding: 50px 20px;
+    max-width: 900px;
+    margin: auto;
+}
+
+#about {
+    background-color: #f4f4f4;
+}
+
+#portfolio .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.gallery-item {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    margin: 10px;
+    width: 30%;
+    padding: 15px;
+    text-align: center;
+}
+
+.gallery-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+#contact {
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
 }

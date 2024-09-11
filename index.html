@@ -3,41 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login Form</title>
-    <link rel="stylesheet" href="practice.css">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="form-container">
-        <form action="#">
-            <h2>Login form</h2>
-            <label for="name">Name</label>
-            <input type="text" id="name" name="name" required>
-            
-            <label for="password">Password</label>
-            <input type="password" id="password" name="password" required>
-            
-            <p>Choose One:</p>
-            <input type="radio" id="real-world" name="choice" value="Real World">
-            <label for="real-world">Real World</label>
-            <input type="radio" id="matrix" name="choice" value="Matrix">
-            <label for="matrix">Matrix</label>
-            
-            <p>Select your Programs:</p>
-            <input type="checkbox" id="bscs" name="program" value="BSCS">
-            <label for="bscs">BSCS</label>
-            <input type="checkbox" id="bsse" name="program" value="BSSE">
-            <label for="bsse">BSSE</label>
-            <input type="checkbox" id="bsit" name="program" value="BSIT">
-            <label for="bsit">BSIT</label>
-            
-            <label for="dob">Your Date of Birth:</label>
-            <input type="date" id="dob" name="dob" required>
-            
-            <label for="message">Message:</label>
-            <textarea id="message" name="message" rows="4" placeholder="write your text here..."></textarea>
-            
-            <button type="submit">Submit</button>
-        </form>
-    </div>
+    <header>
+        <h1>My Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hi, I'm [Your Name], a passionate web developer with experience in HTML, CSS, JavaScript, and more. I love creating beautiful and functional websites.</p>
+    </section>
+
+    <section id="portfolio">
+        <h2>Portfolio</h2>
+        <div class="gallery">
+            <div class="gallery-item">
+                <img src="project1.jpg" alt="Project 1">
+                <h3>Project 1</h3>
+                <p>Description of project 1.</p>
+            </div>
+            <div class="gallery-item">
+                <img src="project2.jpg" alt="Project 2">
+                <h3>Project 2</h3>
+                <p>Description of project 2.</p>
+            </div>
+            <div class="gallery-item">
+                <img src="project3.jpg" alt="Project 3">
+                <h3>Project 3</h3>
+                <p>Description of project 3.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: yourname@example.com</p>
+        <p>Phone: +123-456-7890</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 [Your Name]. All rights reserved.</p>
+    </footer>
 </body>
 </html>
